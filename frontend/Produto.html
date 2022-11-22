@@ -10,22 +10,21 @@
     <a href="painel.html">Home</a>
     <hr>
     <h2>Cadastrar produtos</h2>
-    <form>
+    <form id="form-products">
         <div>
             <label>Nome</label>
-            <input type="text">
+            <input type="text" name="name">
         </div>
         <div>
             <label>Preço</label>
-            <input type="text">
+            <input type="text" name="price">
         </div>
         <button type="submit">Cadastrar</button>
     </form>
     <hr>
     <h2>Lista produtos</h2>
-    <ul>
-        <li>Teste <a href="#">[excluir]</a></li>
+    <ul id="product-list">
     </ul>
-    <script src="../javascript/index.js"></script>
+    <script src="javascript/index.js"></script>
 </body>
 </html>

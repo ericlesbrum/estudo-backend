@@ -11,16 +11,12 @@ async function get(req, res) {
 async function post(req, res) {
     const {
         name,
-        email,
-        phone,
-        address
+        price
     } = req.body;
 
     const product = new ClientsModel({
         name,
-        email,
-        phone,
-        address
+        price,
     })
     product.save()
 
